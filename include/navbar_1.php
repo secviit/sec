@@ -9,12 +9,12 @@
         </div>
         <div class="menu">
             <ul>
-                <li class="menu-item"><a href="index.php">Home</a></li>
-                <li class="menu-item"><a href="#">Activities</a></li>
-                <li class="menu-item"><a href="#">About</a></li>
-                <li class="menu-item"><a href="#">Support</a></li>
+                <li class="menu-item"><a href="after_member_login.php">Home</a></li>
+                <li class="menu-item"><a href="#">link</a></li>
+                <li class="menu-item"><a href="#">link</a></li>
+                <li class="menu-item"><a href="#">link</a></li>
                 <li class="menu-item"><a href="#">faq</a></li>
-                <li class="menu-item"><a href="memberLogIn.php">LogIn</a></li>
+                <li class="menu-item"><a href="logout.php">Logout</a></li>
             </ul>
         </div>
     </nav>
