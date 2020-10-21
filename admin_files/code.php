@@ -121,4 +121,23 @@ if(isset($_POST['member_register_btn'])){
     }
 }
 
+if(isset($_POST['member_login_btn']))
+{
+    $username_login = $_POST['usernamee'];
+    $password_login = $_POST['passwordd'];
+  
+	$query = "SELECT * FROM member_table WHERE username='$username_login' AND password= '$password_login' ";
+	$query_run = mysqli_query($connection, $query);
+	if(mysqli_fetch_array($query_run))
+	{
+		$_SESSION['username'] =  $username_login;
+		header('Location:../after_member_login.php');
+	}
+	else 
+	{
+		$_SESSION['status'] =  "Username/Password is invalid";
+		header('Location:../memberLogIn.php');
+	}
+
+}
 ?>
