@@ -16,6 +16,19 @@ header {
     width: 100%;
 }
 
+.submit {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    color: #b69100;
+    font-weight: bold;
+}
+
+.submit:hover {
+    text-decoration: none;
+    color: #b69100;
+}
+
 .content {
     margin: 4em auto;
     font-size: 20px;
